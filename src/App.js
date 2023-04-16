@@ -39,7 +39,7 @@ function App() {
         />
         <div>
           <button onClick={(e) => handleExpense(e, "Add")}>Add</button>
-          <button onClick={(e) => handleExpense(e, "Remove")}>Remove</button>
+          <button  className="rem" onClick={(e) => handleExpense(e, "Remove")}>Remove</button>
         </div>
       </form>
       {transactions?.length ? (

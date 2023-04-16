@@ -28,6 +28,8 @@ input {
 button {
   padding: 5px 15px;
   margin: 10px;
+  border-radius: 5px;
+  border: none;
   cursor: pointer;
 }
 
@@ -38,4 +40,11 @@ ul {
 }
 body{
   background-color: rgb(6, 255, 243);
+}
+button:hover{
+  color: #fff;
+  background-color: rgb(16, 195, 16);
+}
+.rem:hover{
+  background-color: rgb(246, 13, 13);
 }
